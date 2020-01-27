@@ -1,5 +1,8 @@
 # GrayLogger
 
+[![Test](https://github.com/takattila/graylogger/workflows/Test/badge.svg?branch=master)](https://github.com/takattila/graylogger/actions?query=workflow:Test)
+[![Coverage Status](https://coveralls.io/repos/github/takattila/graylogger/badge.svg?branch=master)](https://coveralls.io/github/takattila/graylogger?branch=master)
+
 This package was made to provide easy-to-analyze log messages.
 
 It can be configured to:
