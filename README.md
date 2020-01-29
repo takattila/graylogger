@@ -2,6 +2,7 @@
 
 [![Test](https://github.com/takattila/graylogger/workflows/Test/badge.svg?branch=master)](https://github.com/takattila/graylogger/actions?query=workflow:Test)
 [![Coverage Status](https://coveralls.io/repos/github/takattila/graylogger/badge.svg?branch=master)](https://coveralls.io/github/takattila/graylogger?branch=master)
+[![GOdoc](https://img.shields.io/badge/godoc-reference-orange)](https://godoc.org/github.com/takattila/graylogger)
 [![Version](https://img.shields.io/badge/dynamic/json.svg?label=version&url=https://api.github.com/repos/takattila/graylogger/releases/latest&query=tag_name)](https://github.com/takattila/graylogger/releases)
 
 This package was made to provide easy-to-analyze log messages.
