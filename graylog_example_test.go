@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"net"
+	"time"
 
 	"github.com/takattila/graylogger"
 )
@@ -49,6 +50,7 @@ func ExampleGrayLogger_SendGELF() {
 	// Starting UDP server ...
 	response := make(chan string)
 	go udpServer(init.GraylogPort, response)
+	time.Sleep(100 * time.Millisecond)
 
 	// GrayLogger initialization ...
 	g := graylogger.New(init)
