@@ -31,7 +31,7 @@ jobs:
         go mod download
     - name: Run Unit tests
       run: |
-        go test -covermode atomic -coverprofile=profile.cov ./...
+        go test -v -covermode atomic -coverprofile=profile.cov ./...
     - name: Send coverage
       env:
         COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
